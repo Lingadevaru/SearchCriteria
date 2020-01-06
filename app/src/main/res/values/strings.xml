@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SearchCriteria</string>
+    <string name="welcome">WelCome</string>
+    <string name="login">Login</string>
+
+    <string-array name="year_array">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+    </string-array>
+
+    <string-array name="yearTo_array">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="monthTo_array">
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+    </string-array>
+
+</resources>

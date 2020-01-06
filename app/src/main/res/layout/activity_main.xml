@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/yearFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year From"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <Spinner
+                android:id="@+id/yearFrom_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/SpinnerTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/monthFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:text="Month From"/>
+
+            <Spinner
+                android:id="@+id/monthFrom_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/SpinnerTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/yearTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year To"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Spinner
+                android:id="@+id/yearTo_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/SpinnerTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/monthTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Month To"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <Spinner
+                android:id="@+id/monthTo_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/SpinnerTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"/>
+
+
+            <CheckBox android:id="@+id/checkbox_Entity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="ENTITY"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_IPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="IPA"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_HP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="HP"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_LOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="LOB"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="MONTH"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_SERVICE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="SERVICE"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"/>
+
+            <CheckBox android:id="@+id/checkbox_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="SOURCE"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"/>
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"
+                android:textColor="#fff"
+                android:text="Search"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
